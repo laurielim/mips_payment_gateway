@@ -1,0 +1,7 @@
+name: 'MIPS Payment Gateway'
+type: module
+description: 'MIPS payment gateway for Commerce 2 in Mauritius'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - commerce_payment:commerce_payment

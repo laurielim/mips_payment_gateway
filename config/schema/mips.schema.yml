@@ -1,0 +1,23 @@
+# config/schema/mips.schema.yml
+commerce_payment.commerce_payment_gateway.plugin.mips_payment_gateway:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    id_merchant:
+      type: string
+      label: 'Merchant Id'
+    id_entity:
+      type: string
+      label: 'Entity Id'
+    id_operator:
+      type: string
+      label: 'Operator Id'
+    operator_password:
+      type: string
+      label: 'Operator Password'
+    basic_username:
+      type: string
+      label: 'Basic Username'
+    basic_password:
+      type: string
+      label: 'Basic Password'
+
